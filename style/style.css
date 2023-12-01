@@ -1,3 +1,9 @@
+/* ####Custom props */
+:root{
+   --primary-color:rgb(0 97 255);
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -23,38 +29,63 @@ img{
     text-decoration: none;
  }
 
+ /* ### Debug */
+
+ .debug{
+   min-height: 40px;
+   border: 1px dashed red;
+   padding: 1rem;
+}
+
+.debug *{
+   min-height: 
+   min-height: 80px;
+   border: 1px dashed red;
+   padding: 1rem;
+}
+
  /* #### Utils */
 
  .container{
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
  }
+
+ .d-flex{
+   display: flex;
+ }
+
+ .col-40{
+   width: 40%;
+ }
+
+ .col-60{
+   width: 60%;
+ }
+
 
  .btn{
     display: inline-block;
     padding: 7px 14px;
     color: white;
-    background-color: #555;
+    background-color: var(--primary-color);
     border: none;
     cursor: pointer;
     
  }
 
  .btn .btn-primary{
-    background-color: rgb(42, 42, 224);
+    background-color: var(--primary-color);
  }
 
- /* ### Debug */
-
- .debug{
-    min-height: 80px;
-    background-color: #888;
-    padding: 2rem;
- }
 
  /* ###Header */
 
  #header{
+   padding: 0 15px;
     height: 80px;
     background-color: white;
     display: flex;
@@ -62,10 +93,29 @@ img{
     align-items: center;
     position: sticky;
     top: 0;
+    font-size: 0.9rem;
+ }
+
+ #header .logo{
+   height: 20px;
  }
 
  #header .header-nav{
     display: flex;
     align-items: center;
+    gap: 15px;
 
+ }
+ #header .header-nav li{
+   margin: 0 22px;
+ }
+
+ /* ####--HERO -- */
+
+ #hero{
+   background-color: rgb(180 208 231);
+ }
+
+ #hero .container{
+   max-width: 1200px;
  }
