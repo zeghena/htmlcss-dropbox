@@ -126,3 +126,59 @@ img{
    top: 31%;
  }
  
+ /* ###Business### */
+
+ .container-bis{
+   margin-left: 100px;
+   margin-right: 100px;
+   justify-content: center;
+    margin-top: 50px;
+   
+    
+ }
+ .business{
+
+   padding: 20px 20px;
+ 
+
+
+ }
+
+  .fatturazione{
+   display: flex;
+   padding: 0 15px;
+   align-items: center;
+   justify-content: flex-start;
+}
+ .pad{
+   padding: 20px 20px;
+ }
+.fatturazione *{
+   padding: 10px 20px;
+}
+ .container-bis *{
+    
+ }
+
+ .card-up{
+   padding-left: 50px;
+   width: 30%;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 25px;
+   border: 1px solid rgb(54, 53, 53);
+}
+ 
+.card-down{
+   padding: 20px;
+   width: 30%;
+   line-height: 40px;
+   
+
+   gap: 25px;
+   border: 1px solid rgb(54, 53, 53);
+}
+ 
+
