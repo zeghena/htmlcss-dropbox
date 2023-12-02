@@ -164,9 +164,9 @@ img{
 .fatturazione *{
    padding: 10px 20px;
 }
- .container-bis *{
+ /* .container-bis *{
     
- }
+ } */
 
  .section{
    padding-top: 30px;
@@ -205,5 +205,20 @@ img{
    background-color: azure;
    color: darkgrey;
    padding: 5px;
+ }
+
+ .wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+
+ .wrap *{
+  
+  max-width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+   margin: 10px;
+   
  }
 
