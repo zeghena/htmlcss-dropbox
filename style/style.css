@@ -60,10 +60,12 @@ img{
 
  .col-40{
    width: 40%;
+   
  }
 
  .col-60{
    width: 60%;
+   
  }
 
 
@@ -133,15 +135,12 @@ img{
    margin-right: 100px;
    justify-content: center;
     margin-top: 50px;
-   
-    
  }
+
  .business{
 
    padding: 20px 20px;
  
-
-
  }
 
   .fatturazione{
@@ -150,9 +149,18 @@ img{
    align-items: center;
    justify-content: flex-start;
 }
+/* #####  sections  ##### */
+/* 
+.section{
+   display: flex;
+   flex-direction: row;
+
+} */
+
  .pad{
    padding: 20px 20px;
  }
+
 .fatturazione *{
    padding: 10px 20px;
 }
@@ -160,9 +168,17 @@ img{
     
  }
 
+ .section{
+   padding-top: 30px;
+   display: flex;
+ }
+
+.card-main{
+   margin: 20px;
+}
  .card-up{
    padding-left: 50px;
-   width: 30%;
+  
    height: 30px;
    display: flex;
    align-items: center;
@@ -173,12 +189,21 @@ img{
  
 .card-down{
    padding: 20px;
-   width: 30%;
-   line-height: 40px;
    
-
+   line-height: 40px;
+   list-style:circle;
    gap: 25px;
    border: 1px solid rgb(54, 53, 53);
 }
  
+ .card-central{
+   display: flex;
+   justify-content: center;
+ }
+
+ .btn-white{
+   background-color: azure;
+   color: darkgrey;
+   padding: 5px;
+ }
 
