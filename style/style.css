@@ -54,6 +54,18 @@ img{
   border: 1px dashed red;
 }
 
+.debug-nopad-nobord{
+  min-width: 30px;
+  min-height: 30px;
+  background-color: brown;
+}
+
+.debug-nopad-nobord *{
+  min-width: 30px;
+  min-height: 30px;
+  background-color: brown;
+}
+
 
  /* #### Utils */
 
@@ -233,6 +245,7 @@ img{
    
  }
 
+ /* ##### Banner sponsor quadratoni###### */
  .sponsor{
   display: flex;
   align-items: center;
@@ -378,4 +391,31 @@ height: 50%;
   background-color: rgb(255, 216, 48);
 }
 
+/* ### banner azzurro### */
 
+
+.container-slim{
+  padding: 80px;
+  
+  background-color: rgb(180, 208, 231);
+  
+  margin: auto;
+}
+
+/* .text .col60{
+  text-align: start;
+}
+.text .col40{
+  text-align: end;
+} */
+
+.banda-azzurra{
+  display: flex;
+  align-items: center;
+  text-align: end;
+}
+
+.btn-white{
+  background-color: lightgrey;
+  color: rgb(35, 35, 35);
+}
